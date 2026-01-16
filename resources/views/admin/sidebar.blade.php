@@ -2,7 +2,7 @@
     <label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
     <div class="flex min-h-full flex-col items-start bg-base-200 w-64 is-drawer-close:w-14 is-drawer-open:w-80">
         <div class="w-full flex items-center justify-center p-4">
-            <img src="{{ asset('assets/images/logo_bengkod.svg') }}" alt="Logo">
+            <img src="{{ asset('public/assets/images/bengkelkoding.svg') }}" alt="Logo">
         </div>
 
         <!-- Sidebar content here -->
@@ -41,8 +41,8 @@
             </li>
 
             <!-- History item -->
-            <li class="{{ request()->routeIs('histories') ? 'bg-gray-200 rounded-lg' : '' }}">
-                <a href="#" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="History">
+            <li class="{{ request()->routeIs('admin.histories.*') ? 'bg-gray-200 rounded-lg' : '' }}">
+                <a href="{{ route('admin.histories.index') }}" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="History">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="12" cy="12" r="10"></circle>
                         <polyline points="12 6 12 12 16 14"></polyline>
