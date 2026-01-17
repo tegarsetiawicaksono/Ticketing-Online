@@ -16,6 +16,9 @@
         <div class="drawer-content">
             <!-- Navbar -->
             <nav class="navbar w-full bg-base-300">
+                <div class="flex-1 lg:hidden">
+                    <img src="https://bengkelkoding.com/wp-content/uploads/2024/09/bengkelkoding.svg" alt="Bengkel Koding" class="h-8 w-auto ml-4">
+                </div>
                 <label for="my-drawer-4" aria-label="open sidebar" class="btn btn-square btn-ghost lg:hidden">
                     <!-- Sidebar toggle icon -->
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="currentColor" class="my-1.5 inline-block size-4">
