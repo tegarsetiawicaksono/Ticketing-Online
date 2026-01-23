@@ -2,7 +2,7 @@
     <label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
     <div class="flex min-h-full flex-col items-start bg-base-200 w-64 is-drawer-close:w-14 is-drawer-open:w-80">
         <div class="w-full flex items-center justify-center p-4">
-            <img src="{{ asset('assets/images/ticketing_logo.jpeg') }}" alt="My Ticketing Logo" class="w-32 h-auto">
+            <img src="{{ asset('assets/images/logo_bengkod.svg') }}" alt="BengTix Logo" class="w-32 h-auto">
         </div>
 
         <!-- Sidebar content here -->
